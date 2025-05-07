@@ -20,8 +20,8 @@ Architecture to be implemented for this project :
     - Use the queries in the `customer_queries.csv` file and generate relevant support tickets using an LLM i.e. `Qwen3-1.7b` model.
     - Used `Prompt tuning` technique to pass a relevant prompt such that the llm creates a Support Ticket in the following format :
     
-    ```json
-        {
+    ```
+    {
     'Query': "I'm unable to generate reports from the dashboard. The button remains greyed out even after selecting all the required filters. This happens on Chrome on macOS Sonoma.",
     'Title': 'Dashboard report generation button is greyed out after applying filters',
     'Browser': 'Chrome',
