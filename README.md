@@ -4,7 +4,7 @@ A basic `support chatbot` for quering about the technical issues of systems an
 
 Architecture to be implemented for this project :
 
-![Architecture](https://file+.vscode-resource.vscode-cdn.net/Users/qbit-glitch/Desktop/coding-projects/company_assignments/solosphereAi/RAG-support-ticket-system/planned_architecture.png)
+![Architecture](./planned_architecture.png)
 
 ## **Requirements**
 
