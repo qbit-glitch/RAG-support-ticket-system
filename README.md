@@ -21,7 +21,7 @@ Architecture to be implemented for this project :
     - Used `Prompt tuning` technique to pass a relevant prompt such that the llm creates a Support Ticket in the following format :
     
     ```json
-    {
+        {
     'Query': "I'm unable to generate reports from the dashboard. The button remains greyed out even after selecting all the required filters. This happens on Chrome on macOS Sonoma.",
     'Title': 'Dashboard report generation button is greyed out after applying filters',
     'Browser': 'Chrome',
@@ -30,7 +30,6 @@ Architecture to be implemented for this project :
     'Issue': 'Dashboard report generation button remains greyed out after applying filters',
     'Resolution': 'Clear browser cache and cookies'
     }
-    
     ```
     
     - Built a parser to parse the response of the model and convert it into an json object which later will be used to store the entire generated dataset into a `csv` file.
